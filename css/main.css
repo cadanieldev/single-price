@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: var(--Light-Gray);
+  font-family: var(--font-karla);
+}
+
+/* MAIN */
+.container {
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: 3fr;
+  margin: 0 auto;
+}
+
+.hero-content {
+  grid-column: 1;
+  grid-row: 1 / span 2;
+  background: #fff;
+  padding: 1rem;
+  border-radius: .475rem .475rem 0 0;
+}
+
+.hero-content h3 {
+  font-family: var(--font-karla);
+  color: var(--Cyan);
+  font-weight: 700;
+  margin: 1rem 0;
+  margin-left: 1rem;
+}
+
+.hero-content span {
+  display: block;
+  color: var(--Bright-Yellow);
+  font-family: var(--font-karla);
+  font-weight: 700;
+  font-size: var(--font-text-body);
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+}
+
+.hero-content p {
+  color: var(--Grayish-Blue);
+  font-size: var(--font-text-body);
+  font-weight: 400;
+  max-width: 60ch;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+}
+
+.content-sub {
+  background: hsl(179, 62%, 43%);
+  padding: 1.5rem;
+  width: 50%;
+  border-radius: 0 0 0 .475rem;
+}
+
+.content-sub h4 {
+  font-family: var(--font-karla);
+  color: #fff;
+  margin: 1rem 0;
+}
+
+.value {
+  display: flex;
+  align-items: center;
+  
+}
+
+.dollar {
+  font-family: var(--font-karla);
+  color: #fff;
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+
+.per {
+  color: var(--Light-Gray);
+  font-weight: 400;
+  margin-left: .875rem;
+  font-size: .875rem;
+}
+
+.access {
+  display: block;
+  color: #fff;
+  font-size: var(--font-text-body);
+  margin: .175rem 0 1rem 0;
+}
+
+.btn {
+  display: block;
+  color: #fff;
+  background: var(--Bright-Yellow);
+  padding: 1rem 2rem;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  border-radius: .475rem;
+  box-shadow:  0 4px 4px rgba(0,0,0,.2);
+}
+
+.content-us {
+  background: hsl(179, 52%, 55%);
+  padding: 1.5rem;
+  width: 50%;
+  border-radius: 0 0 0.475rem;
+}
+
+.content-us h4 {
+  font-family: var(--font-karla);
+  color: #fff;
+  margin: 1rem 0;
+}
+
+.us-list {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  gap: .175rem;
+}
+
+.us-list li {
+  color: var(--Light-Gray);
+  font-size: var(--font-text-body);
+  font-weight: 400;
+  font-size: .875rem;
+}
+.flex {
+  display: flex;
+}
