@@ -145,3 +145,27 @@ body {
 .flex {
   display: flex;
 }
+
+/* RESPONSIVE */
+@media (max-width: 630px) {
+  .container {
+    max-width: auto;
+    grid-template-columns: 1fr;
+  }
+  .hero-content p {
+    max-width: 32ch;
+  }
+  .hero-content span {
+    max-width: 20ch;
+  }
+  .flex {
+    flex-direction: column;
+  }
+  .content-us , .content-sub {
+    width: 100%;
+    border-radius: 0;
+  }
+  .content-us {
+    border-radius: 0 0 .475rem .475rem;
+  }
+}
